@@ -19,3 +19,13 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat1{
+    background-image: linear-gradient(to right, orange 0%,tomato 100%);
+    border-radius:8px;
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+}
+.cat3{
+    background-image: linear-gradient(to left, blue 0%, darkblue 100%);
+}
