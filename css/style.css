@@ -19,13 +19,38 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.categories img{
+    width: 100px;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius:8px;
+    color: #fff;
+} 
 .cat1{
     background-image: linear-gradient(to right, orange 0%,tomato 100%);
-    border-radius:8px;
 }
 .cat2{
     background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
 }
 .cat3{
     background-image: linear-gradient(to left, blue 0%, darkblue 100%);
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;border-radius: 8px;
+}
+.card-footer{
+    border-top: none;
+    background-color: #fff;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
